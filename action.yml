@@ -1,4 +1,4 @@
-name: 'Wait'
+name: 'update-yaml'
 description: 'Wait a designated number of milliseconds'
 inputs:
   required: false
