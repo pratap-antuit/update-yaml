@@ -27,7 +27,7 @@ function loopThroughObjRecurs(obj, parseObject) {
 // most @actions toolkit packages have async methods
 async function run() {
   try {
-    const inputs = core.getInput('milliseconds');
+    const inputs = core.getInput('inputs');
     core.info(`action input ${inputs} ...`);
     for (const k in inputs) {
       const yaml_data = yaml.load(fs.readFileSync(k, 'utf8'))
