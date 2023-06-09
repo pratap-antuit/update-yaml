@@ -1,5 +1,5 @@
 {
-  "name": "update-yaml",
+  "name": "runtime-update-yaml",
   "version": "1.0.1",
   "description": "JavaScript Action Template to update YAML",
   "main": "index.js",
