@@ -1,8 +1,9 @@
 name: 'runtime-update-yaml'
 description: 'Allow to update YAML content using input parameters'
 inputs:
-  required: false
-  description: 'Map of changes for a single or multiple files as JSON. Supports following formats: { "filepath": {"propertyPath": "value"}} or {"propertyPath": "value"}. If filepath is not provided it falls back to the path configured under valueFile.'
+  inputs:
+    required: false
+    description: 'Map of changes for a single or multiple files as JSON. Supports following formats: { "filepath": {"propertyPath": "value"}} or {"propertyPath": "value"}. If filepath is not provided it falls back to the path configured under valueFile.'
 runs:
   using: 'node16'
   main: 'dist/index.js'
