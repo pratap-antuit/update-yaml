@@ -1,7 +1,7 @@
-name: 'runtime-update-yaml'
+name: 'Runtime Update YAML'
 description: 'Allow to update YAML content using input parameters'
 inputs:
-  inputs:
+  data:
     required: false
     description: 'Map of changes for a single or multiple files as JSON. Supports following formats: { "filepath": {"propertyPath": "value"}} or {"propertyPath": "value"}. If filepath is not provided it falls back to the path configured under valueFile.'
 runs:
